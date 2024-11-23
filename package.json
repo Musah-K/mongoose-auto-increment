@@ -1,0 +1,31 @@
+{
+  "name": "mongoose-auto-increment-plugin",
+  "version": "1.0.0",
+  "description": "A simple Mongoose plugin for auto-incrementing fields.",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "exports": {
+    ".": {
+      "require": "./cjs/index.js",
+      "import": "./esm/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Musah-K/mongoose-auto-increment.git"
+  },
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "auto-increment"
+  ],
+  "author": "moses_karani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Musah-K/mongoose-auto-increment/issues"
+  },
+  "homepage": "https://github.com/Musah-K/mongoose-auto-increment#readme"
+}
